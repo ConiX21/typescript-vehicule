@@ -1,15 +1,15 @@
-##Install typings : 
+## Install typings : 
 ```
     npm install typings --global
 ```
 
-##Search typings : 
+## Search typings : 
 ```    
     typings search --name jquery
     typings search --name handlebars
 ```
 
-##Install specifics typings
+## Install specifics typings
 ```
     typings install dt~jquery --global --save
     typings install dt~handlebars --global --save
