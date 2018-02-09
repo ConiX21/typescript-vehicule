@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="node_modules/handlebars/dist/handlebars.min.js"></script>
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="dist/js/IParkable.js"></script>
+  <script src="dist/js/Parking.js"></script>
+  <script src="dist/js/Vehicule.js"></script>
+  <script src="dist/js/Voiture.js"></script>
+  <script src="dist/js/Main.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div>
+    <button>Add Vehicule into parking</button>
+  </div>
+  <div id="vehicules">
+    
+  </div>
+  <script id="li-template" type="text/x-handlebars-template">
+    <label>Choisir son vehicule :</label>
+    <select class="entry">
+        {{#each vehicules}}
+          <option>{{vehicule}}</option>
+        {{/each}}
+      </ul>
+    </script>
+</body>
+
+</html>

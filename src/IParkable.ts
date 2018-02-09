@@ -1,0 +1,3 @@
+interface IParkable{
+    isParked() :boolean;
+}

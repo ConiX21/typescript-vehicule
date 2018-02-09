@@ -1,0 +1,4 @@
+
+class Avion extends Vehicule{
+    
+}

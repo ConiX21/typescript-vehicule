@@ -1,0 +1,6 @@
+
+
+
+class Moto extends Vehicule{
+    
+}
